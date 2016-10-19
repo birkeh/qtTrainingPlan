@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingPlan>
+	<Person>
+		<FirstName>Herwig</FirstName>
+		<LastName>Birke</LastName>
+		<DayOfBirth>19680524</DayOfBirth>
+		<Height>172</Height>
+		<Weight>71</Weight>
+	</Person>
+	<Sport name="Running">
+		<Pace>true</Pace>
+		<MaxHR>195</MaxHR>
+		<HR name="GA 1">
+			<Desc>Grundlagen Ausdauer 1</Desc>
+			<Min>60</Min>
+			<Max>70</Max>
+		</HR>
+		<HR name="GA 2">
+			<Desc>Grundlagen Ausdauer 2</Desc>
+			<Min>70</Min>
+			<Max>75</Max>
+		</HR>
+		<HR name="KA">
+			<Desc>Kraft Ausdauer</Desc>
+			<Min>75</Min>
+			<Max>80</Max>
+		</HR>
+		<HR name="SK">
+			<Desc>Schnellkraft</Desc>
+			<Min>80</Min>
+			<Max>90</Max>
+		</HR>
+		<HR name="SWA">
+			<Min>90</Min>
+			<Max>100</Max>
+		</HR>
+	</Sport>
+	<Name>Halbmarathon - 1:30</Name>
+	<StartDate>20100816</StartDate>
+	<Day num="2">
+		<Desc>Intervall RT</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Intervall RT</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Intervall</Desc>
+				<Count>4</Count>
+				<Dist>2000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>248</Pace>
+				<Time>496</Time>
+				<PauseDist>700</PauseDist>
+				<PauseHR>GA 1 (117 - 136)</PauseHR>
+				<PausePace>360</PausePace>
+				<PauseTime>252</PauseTime>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="3">
+		<Desc>Ruhiger Dauerlauf</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger Dauerlauf</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 2 (136 - 146)</HR>
+				<Pace>305</Pace>
+				<Time>3660</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="4">
+		<Desc>Tempolauf</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Tempolauf</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Tempolauf</Desc>
+				<Count>1</Count>
+				<Dist>10000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>265</Pace>
+				<Time>2650</Time>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>720</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="6">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 2 (136 - 146)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="7">
+		<Desc>Langer DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Langer DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>19000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>6555</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="9">
+		<Desc>Intervall</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Intervall</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Intervall</Desc>
+				<Count>4</Count>
+				<Dist>1000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>231</Pace>
+				<Time>231</Time>
+				<PauseDist>400</PauseDist>
+				<PauseHR>GA 1 (117 - 136)</PauseHR>
+				<PausePace>360</PausePace>
+				<PauseTime>144</PauseTime>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="10">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="11">
+		<Desc>Tempolauf</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Tempolauf</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Tempolauf</Desc>
+				<Count>1</Count>
+				<Dist>10000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>265</Pace>
+				<Time>2650</Time>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>720</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="13">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="14">
+		<Desc>Langer DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Langer DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>21000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>7245</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="16">
+		<Desc>Intervall RT</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Intervall RT</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Intervall</Desc>
+				<Count>4</Count>
+				<Dist>2000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>248</Pace>
+				<Time>496</Time>
+				<PauseDist>700</PauseDist>
+				<PauseHR>GA 1 (117 - 136)</PauseHR>
+				<PausePace>360</PausePace>
+				<PauseTime>252</PauseTime>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="17">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="18">
+		<Desc>Tempolauf</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Tempolauf</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Tempolauf</Desc>
+				<Count>1</Count>
+				<Dist>10000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>265</Pace>
+				<Time>2650</Time>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>720</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="20">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="21">
+		<Desc>Langer DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Langer DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>23000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>7935</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="23">
+		<Desc>Intervall</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Intervall</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Intervall</Desc>
+				<Count>5</Count>
+				<Dist>1000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>231</Pace>
+				<Time>231</Time>
+				<PauseDist>400</PauseDist>
+				<PauseHR>GA 1 (117 - 136)</PauseHR>
+				<PausePace>360</PausePace>
+				<PauseTime>144</PauseTime>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="24">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>12000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>3600</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="25">
+		<Desc>Jogging Steigerungen</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging Steigerungen</Desc>
+			<Task num="0">
+				<Desc>Jogging Steigerungen</Desc>
+				<Count>1</Count>
+				<Dist>8000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>2880</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="27">
+		<Desc>Speed Up</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging Steigerungen</Desc>
+			<Task num="0">
+				<Desc>Jogging Steigerungen</Desc>
+				<Count>1</Count>
+				<Dist>5000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1800</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="28">
+		<Desc>Rennen 10km</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Rennen 10km</Desc>
+			<Task num="0">
+				<Desc>Rennen</Desc>
+				<Count>1</Count>
+				<Dist>10000</Dist>
+				<HR>SWA (175 - 195)</HR>
+				<Pace>235</Pace>
+				<Time>2350</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="30">
+		<Desc>Jogging</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging</Desc>
+			<Task num="0">
+				<Desc>Jogging</Desc>
+				<Count>1</Count>
+				<Dist>16000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>5520</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="31">
+		<Desc>Ruhiger DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Ruhiger DL</Desc>
+			<Task num="0">
+				<Desc>Ruhiger DL</Desc>
+				<Count>1</Count>
+				<Dist>14000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>300</Pace>
+				<Time>4200</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="32">
+		<Desc>Kurzer Tempolauf</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Kurzer Tempolauf</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>3000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1080</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Tempolauf</Desc>
+				<Count>1</Count>
+				<Dist>5000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>265</Pace>
+				<Time>1325</Time>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>720</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="34">
+		<Desc>Langer DL</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Langer DL</Desc>
+			<Task num="0">
+				<Desc>Dauerlauf</Desc>
+				<Count>1</Count>
+				<Dist>19000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>6555</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="35">
+		<Desc>Jogging</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging</Desc>
+			<Task num="0">
+				<Desc>Jogging</Desc>
+				<Count>1</Count>
+				<Dist>11000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>3795</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="37">
+		<Desc>Intervall RT</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Intervall RT</Desc>
+			<Task num="0">
+				<Desc>Aufwärmen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+			<Task num="1">
+				<Desc>Intervall</Desc>
+				<Count>3</Count>
+				<Dist>3000</Dist>
+				<HR>SK (156 - 175)</HR>
+				<Pace>248</Pace>
+				<Time>744</Time>
+				<PauseDist>1000</PauseDist>
+				<PauseHR>GA 1 (117 - 136)</PauseHR>
+				<PausePace>360</PausePace>
+				<PauseTime>360</PauseTime>
+			</Task>
+			<Task num="2">
+				<Desc>Auslaufen</Desc>
+				<Count>1</Count>
+				<Dist>2000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>328</Pace>
+				<Time>656</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="39">
+		<Desc>Jogging</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging</Desc>
+			<Task num="0">
+				<Desc>Jogging</Desc>
+				<Count>1</Count>
+				<Dist>8000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>345</Pace>
+				<Time>2760</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="41">
+		<Desc>peed Up</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Jogging Steigerungen</Desc>
+			<Task num="0">
+				<Desc>Jogging Steigerungen</Desc>
+				<Count>1</Count>
+				<Dist>5000</Dist>
+				<HR>GA 1 (117 - 136)</HR>
+				<Pace>360</Pace>
+				<Time>1800</Time>
+			</Task>
+		</Session>
+	</Day>
+	<Day num="42">
+		<Desc>Halbmarathon</Desc>
+		<Session num="0">
+			<Sport>Running</Sport>
+			<Desc>Halbmarathon</Desc>
+			<Task num="0">
+				<Desc>Halbmarathon</Desc>
+				<Count>1</Count>
+				<Dist>21100</Dist>
+				<HR>SWA (175 - 195)</HR>
+				<Pace>247</Pace>
+				<Time>5232</Time>
+			</Task>
+		</Session>
+	</Day>
+</TrainingPlan>
